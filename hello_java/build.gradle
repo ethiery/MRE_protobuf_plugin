@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.ethiery'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("com.google.protobuf:protobuf-java:3.7.0")
+}
